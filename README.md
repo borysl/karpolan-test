@@ -7,24 +7,16 @@ Mix of [Create Next App](https://nextjs.org/docs/pages/api-reference/create-next
 
 _Warning: if your are planning to use **Pages Router** (not **App Router**) then use [this template](https://github.com/karpolan/nextjs-with-pages-mui-starter-ts)_
 
-## How to use
-
-1. Clone or download the repo from: https://github.com/karpolan/nextjs-mui-starter-ts
-2. Copy `.env.sample` file into `.env` file
-3. Replace `_TITLE_` and `_DESCRIPTION_` in all files with own texts
-4. Check and resolve all `// TODO: ` directives
-5. Add your own code :)
-
 ## Available Scripts
 
 In the project directory, you can run:
 
 ### `npm run dev` or `yarn dev`
 
-Runs the app in the development mode.<br />
+Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
+The page will reload if you make edits.
 You will also see any lint errors in the console.
 
 ### `npm run lint` or `yarn lint`
@@ -37,20 +29,34 @@ Formats the code according to `./prettierrc.js` config
 
 ### `npm test` or `yarn test`
 
-Launches the test runner in the interactive watch mode.<br />
+Launches the test runner in the interactive watch mode.
 
 ### `npm run build` or `yarn build`
 
-Builds the app for production or local development to the `.next` folder.<br />
+Builds the app for production or local development to the `.next` folder.
 
 ### `yarn build:static` or `npm run build:static`
 
 _Note: this is deprecated way to build the Next.js app!_
 
-Builds the SSG (static site generator) version of the app in the `out` folder.<br />
+Builds the SSG (static site generator) version of the app in the `out` folder.
 
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation]https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+Check out our [Next.js deployment documentation]<https://nextjs.org/docs/pages/building-your-application/deploying>) for more details.
+
+## Other tools that I am trying during development
+
+- Copilot - AI pair programmer from GitHub
+- Github Actions - CI/CD
+- Visual Studio Code - IDE
+- Prettier - code formatter
+- ESLint - code linter
+- Jest - unit tests - unstable for me in VSCode
+
+### What is missing?
+
+- E2E tests - suggest Cypress
+- Backend API - use Firebase?
