@@ -5,13 +5,13 @@ import { AppStoreProvider } from 'src/store';
 import defaultTheme, { ThemeProvider } from 'src/theme';
 import CurrentLayout from 'src/layout';
 import './globals.css';
+import { generalData } from 'src/generalData';
 
 const THEME_COLOR = (defaultTheme.palette?.primary as SimplePaletteColorOptions)?.main || '#FFFFFF';
 
-// TODO: Take metadata from the central import
 export const metadata: Metadata = {
-  title: 'IQ Fit',
-  description: 'Put shapes to the 5x10 field',
+  title: generalData.title,
+  description: generalData.description,
   manifest: '/site.webmanifest',
   themeColor: THEME_COLOR,
   // TODO: Add Open Graph metadata

@@ -11,8 +11,7 @@ import { useAppStore } from '../store';
 import { useEventSwitchDarkMode, useOnMobile } from '../hooks';
 import { BOTTOM_BAR_DESKTOP_VISIBLE, TOP_BAR_DESKTOP_HEIGHT, TOP_BAR_MOBILE_HEIGHT } from './config';
 
-// TODO: change to your app name or other word
-const TITLE_PUBLIC = 'Welcome visitors to IQ Fit'; // Title for pages without/before authentication
+const TITLE_PUBLIC = 'Welcome visitor to IQ Fit'; // Title for pages without/before authentication
 
 /**
  * SideBar navigation items with links

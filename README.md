@@ -60,3 +60,12 @@ Check out our [Next.js deployment documentation]<https://nextjs.org/docs/pages/b
 
 - E2E tests - suggest Cypress
 - Backend API - use Firebase?
+
+## Local problems
+
+### For some reason generalData is not traced in debugger
+
+If the break is set up on layout.tsx:20 - generalData is not available in debugger although it works in runtime
+
+
+
