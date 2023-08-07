@@ -16,8 +16,7 @@ import {
   TOP_BAR_MOBILE_HEIGHT,
 } from './config';
 
-// TODO: change to your app name or other word
-const TITLE_PRIVATE = '_TITLE_ app'; // Title for pages after authentication
+const TITLE_PRIVATE = 'Welcome user to IQ Fit!'; // Title for pages after authentication
 
 /**
  * SideBar navigation items with links

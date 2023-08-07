@@ -1,7 +1,7 @@
 {
-  "name": "_TITLE_",
-  "short_name": "_TITLE_",
-  "description": "_DESCRIPTION_",
+  "name": "IQ Fit",
+  "short_name": "IQFit",
+  "description": "Put shapes to the 5x10 field",
   "start_url": ".",
   "theme_color": "#000000",
   "background_color": "#ffffff",

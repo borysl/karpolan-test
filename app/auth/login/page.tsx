@@ -28,7 +28,7 @@ const Login: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Login - _TITLE_</title>
+        <title>Login - IQ Fit</title>
       </Head>
 
       <Stack alignItems="center" spacing={2} padding={2}>

@@ -7,8 +7,9 @@ import DemoAppIcon from '../dev/components/DemoAppIcon';
 import DemoAppIconButton from '../dev/components/DemoAppIconButton';
 import DemoAppImage from '../dev/components/DemoAppImage';
 
+// TODO: Reuse from central repo
 export const metadata: Metadata = {
-  title: '_TITLE_',
+  title: 'IQ Fit',
   description: '_DESCRIPTION_',
 };
 

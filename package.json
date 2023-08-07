@@ -1,11 +1,9 @@
 {
-  "name": "nextjs-mui-starter-ts",
+  "name": "karpolan-test",
   "version": "0.0.1",
-  "description": "Starter project for Next.js with App Router + Material UI using TypeScript",
+  "description": "Try making something useful from Karpolan starter kit",
   "author": {
-    "name": "Anton Karpenko",
-    "email": "i@karpolan.com",
-    "url": "https://karpolan.com"
+    "name": "Borys Lebeda"
   },
   "private": true,
   "keywords": [
@@ -18,7 +16,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/karpolan/nextjs-mui-starter-ts.git"
+    "url": "https://github.com/borysl/karpolan-test.git"
   },
   "scripts": {
     "dev": "next dev",

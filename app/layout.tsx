@@ -8,9 +8,10 @@ import './globals.css';
 
 const THEME_COLOR = (defaultTheme.palette?.primary as SimplePaletteColorOptions)?.main || '#FFFFFF';
 
+// TODO: Take metadata from the central import
 export const metadata: Metadata = {
-  title: '_TITLE_',
-  description: '_DESCRIPTION_',
+  title: 'IQ Fit',
+  description: 'Put shapes to the 5x10 field',
   manifest: '/site.webmanifest',
   themeColor: THEME_COLOR,
   // TODO: Add Open Graph metadata
